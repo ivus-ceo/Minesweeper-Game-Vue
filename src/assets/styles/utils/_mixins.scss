@@ -1,0 +1,10 @@
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+  content: $content;
+  display: $display;
+  position: $pos;
+}
